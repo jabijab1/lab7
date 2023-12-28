@@ -26,8 +26,8 @@ public class HibernateSessionService {
         Group group = groupDao.findById(1L);
 
         Student newStudent = new Student();
-        newStudent.setName("Захар");
-        newStudent.setSurname("Литвинчук");
+        newStudent.setName("Даниил");
+        newStudent.setSurname("Варзов");
         newStudent.setGroup(group);
         studentDao.save(newStudent);
     }
